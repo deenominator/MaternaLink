@@ -1,0 +1,248 @@
+{
+  "entries": [
+    {
+      "id": "caffeine_001",
+      "name": "Caffeine",
+      "aliases": ["coffee", "tea", "cola", "energy drink", "guarana"],
+      "category": "beverage",
+      "description": "Central nervous system stimulant",
+      "safety_info": {
+        "pregnancy_first_trimester": {
+          "status": "limited",
+          "explanation": "Limit to 200mg per day (about 2 cups of coffee)",
+          "recommendation": "Keep consumption moderate",
+          "max_daily": "200mg",
+          "risks": ["Increased miscarriage risk in high doses"]
+        },
+        "pregnancy_second_trimester": {
+          "status": "limited",
+          "explanation": "Limit to 200mg per day",
+          "recommendation": "Moderate consumption is generally considered safe",
+          "max_daily": "200mg"
+        },
+        "pregnancy_third_trimester": {
+          "status": "limited",
+          "explanation": "Limit to 200mg per day",
+          "recommendation": "Moderate consumption is generally considered safe",
+          "max_daily": "200mg"
+        },
+        "breastfeeding": {
+          "status": "limited",
+          "explanation": "Small amounts pass into breast milk",
+          "recommendation": "Limit to 300mg per day, monitor baby for irritability",
+          "max_daily": "300mg",
+          "notes": "Time consumption after feeding to minimize exposure"
+        },
+        "infant": {
+          "status": "avoid",
+          "explanation": "Not safe for infants",
+          "recommendation": "Do not give caffeine to infants",
+          "risks": ["Irritability", "Sleep disturbances", "Rapid heart rate"]
+        }
+      },
+      "sources": [
+        {
+          "name": "American College of Obstetricians and Gynecologists",
+          "url": "https://www.acog.org/",
+          "date": "2023-01-15"
+        }
+      ],
+      "last_updated": "2024-01-10",
+      "verified_by": "ACOG/CDC"
+    },
+    {
+      "id": "ibuprofen_002",
+      "name": "Ibuprofen",
+      "aliases": ["Advil", "Motrin", "Nurofen", "Brufen"],
+      "category": "medication",
+      "description": "Non-steroidal anti-inflammatory drug (NSAID)",
+      "safety_info": {
+        "pregnancy_first_trimester": {
+          "status": "consult_doctor",
+          "explanation": "Limited data, potential risk in early pregnancy",
+          "recommendation": "Use only if prescribed by doctor",
+          "risks": ["Possible miscarriage risk"]
+        },
+        "pregnancy_second_trimester": {
+          "status": "limited",
+          "explanation": "Generally considered safe for short-term use",
+          "recommendation": "Use lowest effective dose for shortest duration",
+          "max_daily": "1200mg",
+          "notes": "Avoid after 20 weeks"
+        },
+        "pregnancy_third_trimester": {
+          "status": "avoid",
+          "explanation": "Can cause premature closure of fetal ductus arteriosus",
+          "recommendation": "DO NOT USE in third trimester",
+          "risks": ["Fetal heart issues", "Reduced amniotic fluid"]
+        },
+        "breastfeeding": {
+          "status": "limited",
+          "explanation": "Small amounts pass into breast milk",
+          "recommendation": "Consider alternatives like acetaminophen",
+          "notes": "Take immediately after feeding to minimize exposure"
+        },
+        "infant": {
+          "status": "consult_doctor",
+          "explanation": "Dose depends on weight and age",
+          "recommendation": "Only under pediatric supervision",
+          "notes": "Not recommended under 6 months"
+        }
+      },
+      "sources": [
+        {
+          "name": "FDA Pregnancy Categories",
+          "url": "https://www.fda.gov/",
+          "date": "2023-05-10"
+        }
+      ],
+      "last_updated": "2024-01-12",
+      "verified_by": "FDA/NHS"
+    },
+    {
+      "id": "salmon_003",
+      "name": "Salmon",
+      "aliases": ["atlantic salmon", "pink salmon", "sockeye salmon"],
+      "category": "food",
+      "description": "Fatty fish rich in omega-3 fatty acids",
+      "safety_info": {
+        "pregnancy_first_trimester": {
+          "status": "safe",
+          "explanation": "Excellent source of omega-3s, low in mercury",
+          "recommendation": "2-3 servings per week recommended",
+          "benefits": ["Brain development", "Reduced preterm birth risk"]
+        },
+        "pregnancy_second_trimester": {
+          "status": "safe",
+          "explanation": "Continue 2-3 servings per week",
+          "recommendation": "Ensure it's thoroughly cooked",
+          "notes": "Avoid raw salmon (sushi)"
+        },
+        "pregnancy_third_trimester": {
+          "status": "safe",
+          "explanation": "Continue 2-3 servings per week",
+          "recommendation": "Well-cooked only",
+          "benefits": ["Continued brain development"]
+        },
+        "breastfeeding": {
+          "status": "safe",
+          "explanation": "Omega-3s pass into breast milk",
+          "recommendation": "2-3 servings per week",
+          "benefits": ["Supports baby's brain development"]
+        },
+        "infant": {
+          "status": "safe",
+          "explanation": "Can be introduced as solid food after 6 months",
+          "recommendation": "Pureed or flaked, watch for allergies",
+          "notes": "Ensure no bones, cooked thoroughly"
+        }
+      },
+      "sources": [
+        {
+          "name": "FDA/EPA Fish Advice",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+          "date": "2023-07-22"
+        }
+      ],
+      "last_updated": "2024-01-05",
+      "verified_by": "FDA/EPA"
+    },
+    {
+      "id": "acetaminophen_004",
+      "name": "Acetaminophen",
+      "aliases": ["Paracetamol", "Tylenol", "Panadol", "Calpol"],
+      "category": "medication",
+      "description": "Pain reliever and fever reducer",
+      "safety_info": {
+        "pregnancy_first_trimester": {
+          "status": "safe",
+          "explanation": "Generally considered safe when used as directed",
+          "recommendation": "Use lowest effective dose for shortest time",
+          "max_daily": "3000mg",
+          "notes": "Preferred over NSAIDs during pregnancy"
+        },
+        "pregnancy_second_trimester": {
+          "status": "safe",
+          "explanation": "Generally considered safe when used as directed",
+          "recommendation": "Use as needed for pain or fever",
+          "max_daily": "3000mg"
+        },
+        "pregnancy_third_trimester": {
+          "status": "safe",
+          "explanation": "Generally considered safe when used as directed",
+          "recommendation": "Use as needed, but consult doctor for long-term use",
+          "max_daily": "3000mg"
+        },
+        "breastfeeding": {
+          "status": "safe",
+          "explanation": "Small amounts pass into breast milk",
+          "recommendation": "Generally considered compatible with breastfeeding",
+          "notes": "Take after feeding to minimize exposure"
+        },
+        "infant": {
+          "status": "consult_doctor",
+          "explanation": "Dose is weight-based",
+          "recommendation": "Only under pediatric guidance",
+          "notes": "Never give adult formulations to infants"
+        }
+      },
+      "sources": [
+        {
+          "name": "American Academy of Family Physicians",
+          "url": "https://www.aafp.org/",
+          "date": "2023-03-15"
+        }
+      ],
+      "last_updated": "2024-01-08",
+      "verified_by": "AAFP/WHO"
+    },
+    {
+      "id": "alcohol_005",
+      "name": "Alcohol",
+      "aliases": ["wine", "beer", "liquor", "spirits"],
+      "category": "beverage",
+      "description": "Ethyl alcohol, central nervous system depressant",
+      "safety_info": {
+        "pregnancy_first_trimester": {
+          "status": "avoid",
+          "explanation": "Can cause fetal alcohol spectrum disorders",
+          "recommendation": "NO safe amount during pregnancy",
+          "risks": ["Birth defects", "Developmental delays", "Miscarriage"]
+        },
+        "pregnancy_second_trimester": {
+          "status": "avoid",
+          "explanation": "Can cause fetal alcohol spectrum disorders",
+          "recommendation": "NO safe amount during pregnancy",
+          "risks": ["Growth problems", "Learning disabilities"]
+        },
+        "pregnancy_third_trimester": {
+          "status": "avoid",
+          "explanation": "Can cause fetal alcohol spectrum disorders",
+          "recommendation": "NO safe amount during pregnancy",
+          "risks": ["Premature birth", "Low birth weight"]
+        },
+        "breastfeeding": {
+          "status": "limited",
+          "explanation": "Alcohol passes into breast milk",
+          "recommendation": "Wait 2-3 hours per drink before breastfeeding",
+          "notes": "Pump and dump does NOT accelerate alcohol clearance"
+        },
+        "infant": {
+          "status": "avoid",
+          "explanation": "Extremely dangerous for infants",
+          "recommendation": "Never give alcohol to infants",
+          "risks": ["Poisoning", "Coma", "Death"]
+        }
+      },
+      "sources": [
+        {
+          "name": "CDC Alcohol and Pregnancy",
+          "url": "https://www.cdc.gov/ncbddd/fasd/alcohol-use.html",
+          "date": "2023-09-10"
+        }
+      ],
+      "last_updated": "2024-01-15",
+      "verified_by": "CDC"
+    }
+  ]
+}

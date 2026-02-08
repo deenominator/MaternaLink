@@ -1,0 +1,7 @@
+
+pydantic==2.5.0
+sqlite3
+json
+typing
+datetime
+re
