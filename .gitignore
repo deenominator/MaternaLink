@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Flask instance folder
+instance/
+
+# Database files
+*.sqlite3
+*.db
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets and config files
+config.py
+client_secret.json
+
+# Cache folders
+.cache/
+__pypackages__/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Python environment files
+pip-wheel-metadata/
